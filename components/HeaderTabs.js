@@ -1,7 +1,7 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 
-export default function HeaderTab() {
+export default function HeaderTabs() {
     const [activeTab, setActiveTab] = useState("Delivery");
   return (
     <View style={{flexDirection: "row", alignSelf: "center"}}>
